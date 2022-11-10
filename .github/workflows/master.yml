@@ -1,4 +1,4 @@
-name: Starting server
+name: Starting server...
 
 on:
   push:
