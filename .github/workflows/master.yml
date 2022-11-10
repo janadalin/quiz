@@ -12,5 +12,7 @@ jobs:
       - uses: actions/setup-node@v1
         with:
          node-version: 18
+         github_token: ${{ secrets.GITHUB_TOKEN }}
+         publish_dir: ./public
       - run: npm ci
-      - run: npm run start &
+      - run: npm run start &  
